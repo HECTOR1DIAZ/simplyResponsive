@@ -1,0 +1,57 @@
+* {
+padding: 20px;
+margin-bottom:10px;
+
+}
+
+.top {
+    background-color: grey;
+    border: 1px solid darkgray;
+
+
+}
+
+#middle {
+
+    background-color: grey;
+}
+
+.desktop {
+background-color: lightgreen;
+border: 1px solid darkgray;
+
+
+}
+
+.phone {
+    background-color: lightblue;
+    border: 1px solid darkgray;
+    
+    
+    }
+
+.tablet {
+background-color: pink;
+
+}
+
+@media screen and (max-width:600px){
+    .tablet {
+        display: none;
+    }
+    .desktop {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:601px) and (max-width: 1023px){
+    .phone {
+        display: none;
+    } 
+    .desktop {
+        display: none;
+    }
+
+
+}
